@@ -11,6 +11,7 @@ sudo wget -q http://www.webmin.com/jcameron-key.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] http://download.webmin.com/download/repository $(lsb_release -cs) contrib"
 sudo apt install webmin -y
 sudo apt install lm-sensors -y
+sudo apt install smartmontools -y
 
 #zfs
 sudo apt install zfsutils-linux
